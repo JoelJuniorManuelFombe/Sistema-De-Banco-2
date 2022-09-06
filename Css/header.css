@@ -19,6 +19,7 @@ body {
     display: flex;
     background: url("../Images/inspiration-geometry.png");
     background-color: #0C1B33;
+
 }
 
 .navbar-conteudo {
@@ -28,7 +29,7 @@ body {
     width: 90%;
     align-items: center;
     font-family: 'Outfit', sans-serif;
-    /* position: absolute; */
+    /* margin-bottom: 10px; */
 }
 
 .logo {
@@ -59,7 +60,9 @@ a {
     background-image: url("../Images/inspiration-geometry.png");
     background-color: #0C1B33;
     display: flex;
-    height: 800px
+    height: 800px;
+    width: auto;
+    /* margin-bottom: 10px; */
     
 }
 
@@ -78,16 +81,57 @@ a {
     top: 40vh;
     left: 20vh;
     width: 50%;
-    text-align: justify;
+    /* text-align: justify; */
     font-family: 'Outfit', sans-serif;
 }
 
 .titulo-hero {
     color: #03B5AA;
-    font-size: 50px
+    font-size: 30px;
+    text-align: center;
 }
 
 .descricao-hero {
     font-size: 20px;
     color: #B2AA8E;
+    text-align: center;
+}
+
+/* responsividade Mobile */
+
+@media screen and (max-width: 767px) {
+    nav {
+        display: none;
+    }
+
+    .container-hero {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        height: auto;
+    }
+
+    .hero-image-svg {
+        width: 40vh;
+    }
+
+    .titulo {
+        width: 90%;
+    }
+
+    .titulo-hero {
+        font-size: 25px;
+    }
+
+    .descricao-hero {
+        font-size: 10px;
+    }
+
+}
+
+/* Responsividade Tablet */
+
+@media screen and (max-width: 991px) {
+
 }
