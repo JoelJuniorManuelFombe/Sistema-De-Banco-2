@@ -1,0 +1,13 @@
+#hero
+
+cor nova
+#ff725e
+
+cor antiga
+#0C1B33
+
+Horas: 07:30 - 15:30<br><br>
+Endereço: Inhamizua<br><br>
+Telefone: +258849433171 / +258879433172<br><br>
+Gerente Principal: Joel Junior<br><br>
+E-mail: <a href="#">joeljuniormanuel@gmail.com</a><br><br>

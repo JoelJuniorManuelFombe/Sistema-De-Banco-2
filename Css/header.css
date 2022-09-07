@@ -18,7 +18,7 @@ body {
     left: 0;
     display: flex;
     background: url("../Images/inspiration-geometry.png");
-    background-color: #0C1B33;
+    background-color: #92382d;
 
 }
 
@@ -32,8 +32,8 @@ body {
     /* margin-bottom: 10px; */
 }
 
-.logo {
-    color: #7A306C;
+.logo-navbar {
+    color: #2bff00;
 }
 
 .ponto-cor {
@@ -42,8 +42,8 @@ body {
 
 ul {
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 60px;
+    /* justify-content: space-evenly; */
+    /* margin-left: 60px; */
 }
 
 li {
@@ -53,14 +53,14 @@ li {
 
 a {
     text-decoration: none;
-    color: #7A306C;
+    color: #2bff00;
 }
 
 .hero-image {
     background-image: url("../Images/inspiration-geometry.png");
-    background-color: #0C1B33;
+    background-color: #92382d;
     display: flex;
-    height: 800px;
+    height: 700px;
     width: auto;
     /* margin-bottom: 10px; */
     
@@ -86,15 +86,19 @@ a {
 }
 
 .titulo-hero {
-    color: #03B5AA;
+    color: #05ffee;
     font-size: 30px;
     text-align: center;
 }
 
 .descricao-hero {
     font-size: 20px;
-    color: #B2AA8E;
+    color: #000000;
     text-align: center;
+}
+
+.titulos-corpo {
+    margin-bottom: 10px;
 }
 
 /* responsividade Mobile */
@@ -106,6 +110,7 @@ a {
 
     .container-hero {
         flex-direction: column;
+        margin-bottom: px;
     }
 
     .hero-image {
@@ -122,10 +127,12 @@ a {
 
     .titulo-hero {
         font-size: 25px;
+        margin-bottom: 20px;
     }
 
     .descricao-hero {
-        font-size: 10px;
+        font-size: 15px;
+        margin-bottom: 40px;
     }
 
 }
