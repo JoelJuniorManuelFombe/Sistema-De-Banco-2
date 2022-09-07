@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Outfit', sans-serif;
 }
 
 
@@ -133,6 +134,7 @@
 .logo-footer {
     color: #ff9800;
     margin-bottom: 10px;
+    font-family: 'Outfit', sans-serif;
 }
 
 .centro-titulos2 {
@@ -143,6 +145,7 @@
     top: 0; 
     left: 0; 
     display: flex;
+    font-family: 'Outfit', sans-serif;
 }
 
 .lista-info {
