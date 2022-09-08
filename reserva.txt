@@ -11,3 +11,10 @@ Endereço: Inhamizua<br><br>
 Telefone: +258849433171 / +258879433172<br><br>
 Gerente Principal: Joel Junior<br><br>
 E-mail: <a href="#">joeljuniormanuel@gmail.com</a><br><br>
+
+
+arrow icon
+<i class="fa-thin fa-arrow-right"></i>
+
+2 arrow icon
+<i class="fa-duotone fa-chevrons-right"></i>
