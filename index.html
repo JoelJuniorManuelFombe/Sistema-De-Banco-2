@@ -7,14 +7,20 @@
     <title>Banco</title>
     <link rel="stylesheet" href="Css/header.css">
     <link rel="stylesheet" href="Css/corpo.css">
+    <link rel="stylesheet" href="Css/mobilemenu.css">
+
 </head>
 <body>
     <header>
         <div class="container-navbar">
             <div class="navbar-conteudo">
                 <h2 class="logo-navbar">Banco<span class="ponto-cor">.</span></h2>
-                <nav>
-                    <ul>
+                <nav id="nav">
+                    <button id="btn-mobile" area-label="Abrir menu" aria-haspopup="true" aria-expanded="menu" aria-expanded="false">Menu
+
+                        <span id="btn-mobile-x"></span>
+                    </button>
+                    <ul id="menu">
                         <li>
                             <a class="lista-row" href="#">Inicio<span class="ponto-cor">.</span></a>
                         </li>
@@ -30,15 +36,14 @@
                             <a class="lista-row" href="#">Info<span class="ponto-cor">.</span></a>
                         </li>
                     </ul>
-
                 </nav>
             </div>
         </div>
         <div class="hero-image">
             <div class="container-hero">
                 <div class="titulo">
-                    <h1 class="titulo-hero">Segurança e rentabilidade para seus investimentos!</h1>
-                    <p class="descricao-hero">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae beatae vel veritatis aliquid natus architecto enim dolorum suscipit quo consequatur fugit iure, consequuntur accusantium sed est harum, et dolorem eligendi.</p>
+                    <h1 class="titulo-hero">Segurança e rentabilidade para seus investimentos<span class="ponto-cor">!</span></h1>
+                    <p class="descricao-hero">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae beatae vel veritatis aliquid natus architecto enim dolorum suscipit quo consequatur fugit iure, consequuntur accusantium sed est harum, et dolorem eligendi<span class="ponto-cor">.</span></p>
 
                     <div class="container-login-button">
                         <button class="login-button"><a href="#">Login</a></button>
@@ -162,5 +167,6 @@
         </div>
             
     </footer>
+    <script src="Js/mobilemenu.js"></script>
 </body>
 </html>
