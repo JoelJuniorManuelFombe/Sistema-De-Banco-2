@@ -92,6 +92,13 @@ li {
     width: 50%;
 }
 
+.titulo-hero1 {
+    display: none;
+    color: #666f88;
+    font-size: 40px;
+    text-align: center;
+}
+
 .titulo-hero {
     color: #666f88;
     font-size: 40px;
@@ -197,10 +204,20 @@ li {
         width: 90%;
     }
 
+    .titulo-hero1 {
+        display: block;
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
     .titulo-hero {
+        display: none !important;
         font-size: 25px;
         margin-bottom: 20px;
     }
+    .typed { 
+        display: none;}
 
     .descricao-hero {
         font-size: 15px;
