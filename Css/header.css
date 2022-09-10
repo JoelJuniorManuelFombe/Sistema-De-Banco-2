@@ -4,6 +4,8 @@
 /* Pre configuracao */
 
 
+/* fim pre configuracao */
+
 a {
     text-decoration: none;
 }
@@ -27,7 +29,6 @@ body {
     display: flex;
     background: url("../Images/inspiration-geometry.png");
     background-color: #333333;
-
 }
 
 .navbar-conteudo {
@@ -101,6 +102,7 @@ li {
     font-size: 20px;
     color: #000000;
     text-align: center;
+    margin-top: 20px;
 }
 
 .container-login-button {
@@ -172,7 +174,7 @@ li {
         transition: .6s;
         z-index: 1000;
         visibility: hidden;
-        overflow-y: hidden; */
+        overflow-y: hidden;
     }
 
     .container-hero {

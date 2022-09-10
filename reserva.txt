@@ -18,3 +18,7 @@ arrow icon
 
 2 arrow icon
 <i class="fa-duotone fa-chevrons-right"></i>
+
+
+
+<i class="fa-solid fa-chart-line-up"></i>
