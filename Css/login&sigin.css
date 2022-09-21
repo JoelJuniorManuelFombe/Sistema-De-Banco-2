@@ -14,6 +14,7 @@ body {
 }
 
 .login {
+    max-width: 100%;
     width: 100%;
     height: 800px;
     display: flex;
@@ -25,12 +26,78 @@ body {
 }
 
 .container-login {
-    width: 100%;
+    width: 400px;
     height: 100%;
-    margin: 1px solid black;
-    
+    /* border: 1px solid black; */
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .login-titulo {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
 
+.login-conteudo {
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login-conteudo-button {
+    margin-bottom: 20px;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.login-nome {
+    outline: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.login-button {
+    display: block;
+    width: 100%;
+    background-color: rgb(108, 224, 85);
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;  
+}
+
+.linha-vertical {
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 1px; 
+    top: 0; 
+    left: 0; 
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.metodos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.signup {
+    width: 50%;
+}
+
+.forgot-password {
+    width: 50%;
+    text-align: end;
 }

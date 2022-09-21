@@ -94,22 +94,28 @@ li {
 
 .titulo-hero1 {
     display: none;
-    color: #666f88;
+    color: #ff725e;
     font-size: 40px;
     text-align: center;
 }
 
 .titulo-hero {
-    color: #666f88;
+    height: 40%;
+    width: 100%;
+    color: #ff725e;
     font-size: 40px;
     text-align: center;
 }
 
 .descricao-hero {
     font-size: 20px;
-    color: #000000;
+    color: #fff;
     text-align: center;
     margin-top: 20px;
+}
+
+.descricao-hero1 {
+    color: #fff;
 }
 
 .container-login-button {
@@ -128,12 +134,18 @@ li {
     width: 200px;
     height: 50px;
     margin-top: 15px;
-    font-size: 20px;
-    border-radius: 30px;
+    /* font-size: 20px; */
+    border-radius: 10px;
     border: none;
+    outline: none;
     background-color: #ff725e;
     color:black;
     transition: 2s;
+    padding: 20px;
+}
+
+.login-button-titulo {
+    color: #000;
 }
 
 .centro-titulos {

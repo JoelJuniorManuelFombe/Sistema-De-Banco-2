@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.signup {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 800px;
+    background: linear-gradient(to bottom, #ccff66 0%, #0099ff 100%);
+}
+
+.container-signup {
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-titulo-1 {
+    text-align: center;
+}
+
+.signup-titulo {
+    margin-bottom: 10px;
+}
+
+/* Select Area */
+.signup-container {
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.linha-horizontal-signup {
+    width: 100%;
+    height: 2px;
+    background-color: #000
+}
+
+.horizontal {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: aquamarine;
+    width: 100%;
+    /* height: 100%; */
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.signup-container {
+
+}
+
+/* #div-ocultar {
+    display: none;
+} */
+
+.signup_container_renda {
+    width: 100%;
+    margin-bottom: 20px;
+    display: none;
+    flex-wrap: wrap;
+}
+
+.signup-titulo {
+    text-align: left;
+}
+
+.signup-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+
+}
+
+#signup-input-button {
+    width: 20%;
+    justify-content: center;
+}
+
+
