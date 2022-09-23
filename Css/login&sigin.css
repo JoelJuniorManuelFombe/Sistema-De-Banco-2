@@ -101,3 +101,9 @@ body {
     width: 50%;
     text-align: end;
 }
+
+@media screen and (max-width: 767px) {
+    .container-login {
+        width: 100%;
+    }
+}
