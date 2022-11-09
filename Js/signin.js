@@ -3,7 +3,7 @@ let select = document.querySelector(".signup-container");
 
 function mudar () {
     if (select.value == 2) {
-        renda.style.display = "block";
+        renda.style.display = "flex";
     }
     else {
         renda.style.display = "none";
