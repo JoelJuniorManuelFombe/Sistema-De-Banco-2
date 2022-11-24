@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="../Css/login&sigin.css">
 </head>
 <body>
-    <form action="" class="login">
+    <form action="../php/login.php" class="login" method="post">
         <div class="container-login">
             <h1 class="login-titulo">Login</h1>
 
             <div class="login-conteudo">
-                <h3 class="login-titulo2">Nome</h3>
-                <input name="nome" type="text" name="" id="" class="login-nome">
+                <h3 class="login-titulo2">Email</h3>
+                <input name="email" type="email" id="" class="login-nome">
             </div>
             <div class="login-conteudo">
                 <h3 class="login-titulo2">Password</h3>
-                <input name="password" type="password" name="" id="" class="login-nome">
+                <input name="senha" type="password"  id="" class="login-nome">
             </div>
             <div class="login-conteudo-button">
                 <button class="login-button">Login</button>
@@ -28,7 +28,7 @@
 
             <div class="metodos">
                 <div class="signup">
-                    <a href="novaConta.html">New account</a>
+                    <a href="novaConta.php">New account</a>
                 </div>
 
                 <div class="forgot-password">

@@ -45,7 +45,7 @@
                     <p class="descricao-hero">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae beatae vel veritatis aliquid natus architecto enim dolorum suscipit quo consequatur fugit iure, consequuntur accusantium sed est harum, et dolorem eligendi<span class="ponto-cor">.</span></p>
 
                     <div class="container-login-button">
-                        <button class="login-button"><a class="login-button-titulo" href="Html/entrar.html">Login</a></button>
+                        <button class="login-button"><a class="login-button-titulo" href="Html/entrar.php">Login</a></button>
                     </div>
                 </div>
 

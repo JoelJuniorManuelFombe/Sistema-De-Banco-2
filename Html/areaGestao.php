@@ -7,8 +7,10 @@
     <title>Gestao da Conta</title>
     <script src="https://kit.fontawesome.com/460b4ef254.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Css/areaGestaoNavBar.css">
+    <link rel="stylesheet" href="../Css/operacoes.css"/>
 
 </head>
+
 <body>
     <div class="container-main">
         <div class="container-main-side-a">
@@ -22,10 +24,10 @@
 
                         <li><span><i class="fa-solid fa-money-simple-from-bracket"></i></span></li>
 
-                        <li>Retirada</li>
+                        <li onclick="show(1)">Deposito</li>
                         <li>Calculos de juros</li>
                         <li><span><i class="fa-solid fa-money-bill-transfer"></i></span></li>
-                        <li>Transferencia</li>
+                        <li onclick="show(2)">Transferencia</li>
                     </ul>
                 </div>
             </div>
@@ -74,16 +76,58 @@
     </div>
 </body>
 </html>
-<div id="levantamento">
-    <form action="">
-        <input name="numeorConta" type="number" id="numeroConta">
-        <input name="valorLevantamento" type="number" class="valorLevantamento">
-    </form>
+
+<div id="container">
+    <div id="deposito" class="cards">
+        <form action="../php/transferir.php">
+            <span>
+                <h3>Valor</h3>
+                <input name="valorLevantamento" type="number" class="valorLevantamento">
+            </span>
+            <button id="btn">Depositar</button>
+        </form>
+        <button id="btn" onclick="fechar(1)">Fechar</button>
+    </div>
 </div>
 
-<div id="Deposito">
-    <form action="">
-        <input name="numeorConta" type="number" id="numeroConta">
-        <input name="valorDeposito" type="number" class="valorDeposito">
-    </form>
+<div id="container2">
+    <div id="transferencia" class="cards">
+        <form action="">
+            <span>
+                <h3>Numero de conta</h3>
+                <input name="numeroConta" type="number" id="numeroConta">
+            </span>
+            <span>
+                <h3>Valor</h3>
+                <input name="valorTransferencia" type="number" class="valorDeposito">
+            </span>
+            <button id="btn">Transferir</button>
+        </form>
+        <button id="btn" onclick="fechar(2)">Fechar</button>
+    </div>
 </div>
+
+<script>
+
+    function show(id){
+        let dep = document.querySelector("#deposito");
+        let transf = document.querySelector("#transferencia");
+
+        if(id == 1){
+            dep.classList.add("display-block");
+        }else{
+            transf.style.display = "block";
+        }
+    }
+
+
+    function fechar(id){
+        let dep = document.querySelector("#deposito");
+        let transf = document.querySelector("#transferencia");
+        if(id == 1){
+            dep.classList.remove("display-block");
+        }else{
+            transf.style.display = "none";
+        }
+    }
+</script>

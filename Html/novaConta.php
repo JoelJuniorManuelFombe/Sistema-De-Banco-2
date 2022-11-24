@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../Css/signup.css">
 </head>
 <body>
-    <form action="" class="signup">
+    <form action="../php/register.php" class="signup" method="post">
         <div class="container-signup">
             <h1 class="signup-titulo-1">Sign-up</h1>
             
-            <h3 class="signup-titulo" id="titulo1">Tipo de Conta</h3>
-            <select name="tipoConta" class="signup-container" onchange="mudar()">
+            <h3 class="signup-titulo" id="titulo1" >Tipo de Conta</h3>
+            <select name="tipoConta"  required class="signup-container" onchange="mudar()">
                 <option value="1" class="login-mark">A ordem</option>
                 <option value="2" class="login-mark">A prazo</option>
                 <option value="3" class="login-mark">Entidade</option>
@@ -27,22 +27,27 @@
 
             <div class="signup-container">
                 <h3 class="signup-titulo">Nome</h3>
-                <input name="nome" type="text" name="Nome" id="" class="signup-input">
+                <input required name="nome" type="text"  id="" class="signup-input">
             </div>
 
             <div class="signup-container">
                 <h3 class="signup-titulo">Sobrenome</h3>
-                <input name="sobrenome" type="text" name="Apelido" id="" class="signup-input">
+                <input required name="sobrenome" type="text"  id="" class="signup-input">
             </div>
 
             <div class="signup-container">
                 <h3 class="signup-titulo">Email</h3>
-                <input name="email" type="email" name="Email" id="" class="signup-input">
+                <input required name="email" type="email"  id="" class="signup-input">
             </div>
 
             <div class="signup-container">
                 <h3 class="signup-titulo">Data de Nascimento</h3>
-                <input name="dataNascimento" type="date" name="Data de Nascimento" id="" class="signup-input">
+                <input required name="dataNascimento" type="date" placeholder="Data de Nascimento" id="" class="signup-input">
+            </div>
+
+            <div class="signup-container">
+                <h3 class="signup-titulo">Senha</h3>
+                <input required name="senha" type="password" placeholder="Senha" id="" class="signup-input">
             </div>
 
             <!-- <div class="signup-container">
